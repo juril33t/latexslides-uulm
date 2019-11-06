@@ -246,7 +246,7 @@ SmallCapsFont={Arial}
     \hfuzz=0pt % reset \hfuzz to reenable warnings
     \vskip10pt
     \hbox{
-    \begin{beamercolorbox}[left,leftskip=-0.075\paperwidth,wd=.385\paperwidth]{author}
+    \begin{beamercolorbox}[left,leftskip=-0.075\paperwidth,wd=.2\paperwidth]{author}
 	\usebeamerfont{author}\insertauthor
 	\ifthenelse{\equal{\@affiliation}{}}{% no affiliation specified
 	}{% include affiliation
@@ -260,7 +260,7 @@ SmallCapsFont={Arial}
 \end{beamercolorbox}
 % \hskip5pt
 % \hfill
-\begin{beamercolorbox}[left,wd=.5\paperwidth]{title}
+\begin{beamercolorbox}[left,wd=.65\paperwidth]{title}
 	\usebeamerfont{title}\inserttitle
         \vskip5pt
 	\usebeamerfont{subtitle}
